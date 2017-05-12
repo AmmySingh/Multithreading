@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F60E98AE1EC61E9E00B6468D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E98AD1EC61E9E00B6468D /* AppDelegate.swift */; };
-		F60E98B01EC61E9E00B6468D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E98AF1EC61E9E00B6468D /* ViewController.swift */; };
 		F60E98B31EC61E9E00B6468D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60E98B11EC61E9E00B6468D /* Main.storyboard */; };
 		F60E98B51EC61E9E00B6468D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60E98B41EC61E9E00B6468D /* Assets.xcassets */; };
 		F60E98B81EC61E9E00B6468D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60E98B61EC61E9E00B6468D /* LaunchScreen.storyboard */; };
 		F60E98C31EC61E9F00B6468D /* MultithreadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E98C21EC61E9F00B6468D /* MultithreadingTests.swift */; };
 		F60E98CE1EC61E9F00B6468D /* MultithreadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E98CD1EC61E9F00B6468D /* MultithreadingUITests.swift */; };
+		F60E98E41EC61F8800B6468D /* MTDownloadOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E98E21EC61F8800B6468D /* MTDownloadOptionsViewController.swift */; };
+		F60E98E51EC61F8800B6468D /* MTDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E98E31EC61F8800B6468D /* MTDownloadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		F60E98AA1EC61E9E00B6468D /* Multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60E98AD1EC61E9E00B6468D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F60E98AF1EC61E9E00B6468D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F60E98B21EC61E9E00B6468D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F60E98B41EC61E9E00B6468D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60E98B71EC61E9E00B6468D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		F60E98C91EC61E9F00B6468D /* MultithreadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultithreadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60E98CD1EC61E9F00B6468D /* MultithreadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingUITests.swift; sourceTree = "<group>"; };
 		F60E98CF1EC61E9F00B6468D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60E98E21EC61F8800B6468D /* MTDownloadOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTDownloadOptionsViewController.swift; sourceTree = "<group>"; };
+		F60E98E31EC61F8800B6468D /* MTDownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTDownloadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				F60E98AD1EC61E9E00B6468D /* AppDelegate.swift */,
-				F60E98AF1EC61E9E00B6468D /* ViewController.swift */,
+				F60E98E21EC61F8800B6468D /* MTDownloadOptionsViewController.swift */,
+				F60E98E31EC61F8800B6468D /* MTDownloadViewController.swift */,
 				F60E98B11EC61E9E00B6468D /* Main.storyboard */,
 				F60E98B41EC61E9E00B6468D /* Assets.xcassets */,
 				F60E98B61EC61E9E00B6468D /* LaunchScreen.storyboard */,
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60E98B01EC61E9E00B6468D /* ViewController.swift in Sources */,
+				F60E98E51EC61F8800B6468D /* MTDownloadViewController.swift in Sources */,
+				F60E98E41EC61F8800B6468D /* MTDownloadOptionsViewController.swift in Sources */,
 				F60E98AE1EC61E9E00B6468D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
